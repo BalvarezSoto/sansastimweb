@@ -10,6 +10,9 @@ function JuegosForm() {
                     sssdsdsdsdsdsdsdsds
                     <TextField label="Nombre" fullWidth id='nombre-juego'></TextField>
                 </div>
+                <div className="mt-3">
+                    <TextField multiline label="Descripcion" fullWidth id='desc-juego'></TextField>
+                </div>
             </CardContent>
             <CardActions>
                 <Button fullWidth variant='outlined' color="secondary" >Registrar Juegos</Button>
